@@ -1,0 +1,30 @@
+{
+    "defaultReminderMinutes": 2,
+    "defaultBell": "./media/doorbell.mp3",
+    "schedule": [
+        {
+            "label": "Morning Announcements",
+            "time": "08:15",
+            "audioFile": "./media/morning-announcements.m4a",
+            "daysOfWeek": "Monday,Wednesday,Thursday"
+        },
+        {
+            "label": "Specials",
+            "time": "09:15",
+            "audioFile": "./media/specials.m4a",
+            "daysOfWeek": "Monday,Wednesday,Thursday"
+        },
+        {
+            "label": "Reading",
+            "time": "10:05",
+            "audioFile": "./media/reading.m4a",
+            "daysOfWeek": "Monday,Wednesday"
+        },
+        {
+            "label": "Writing",
+            "time": "11:05",
+            "audioFile": "./media/writing.m4a",
+            "daysOfWeek": "Monday,Wednesday"
+        }
+    ]
+}
